@@ -12,15 +12,21 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+import java.util.UUID;
+
 /**
  * Created by Ram Rooter on 11/2/2016.
  */
 
 public class CrimeFragment extends Fragment {
+
+    // Chapter 10: Using Fragment Arguments
+
     private Crime mCrime;
     private EditText mTitleField;
     private Button mDateButton;
     private CheckBox mSolved;
+
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
